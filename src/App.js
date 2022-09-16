@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Users from "./properties/users";
+import MainGet from "./apies/main.get";
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <Users/>
+      <MainGet/>
     </div>
   );
 }
