@@ -35,7 +35,7 @@ export default function Users(){
         }
 
         <hr/>
-       {JSON.stringify(userID)}
+       {userID && <UserInfo item={userID}/> }
         <hr/>
 
 
